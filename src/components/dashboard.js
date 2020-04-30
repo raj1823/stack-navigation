@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, TextInput,TouchableOpacity} from 'react-native';
+import {View, Text, StyleSheet, TextInput,TouchableOpacity,route} from 'react-native';
 
 class dashboard extends React.Component {
   constructor(props) {
@@ -9,6 +9,8 @@ class dashboard extends React.Component {
  
   render() {
     const {navigation}= this.props;
+    // const {title}= route.params;
+    // console.log(title)
     return (
       <View style={[styles.container]}>
             
@@ -17,7 +19,7 @@ class dashboard extends React.Component {
             
             
             <View style ={[{paddingBottom: 70}, {backgroundColor:"#E114DB"}]}>
-                <Text style={{fontSize: 25,color:"white",marginTop:70,marginLeft:15}}>Recharge</Text>
+            <Text style={{fontSize: 25,color:"white",marginTop:70,marginLeft:15}}>Recharge</Text>
                          
             </View> 
 

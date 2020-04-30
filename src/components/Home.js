@@ -1,6 +1,7 @@
 
 import React from 'react';
 import {View, Text, StyleSheet, TextInput} from 'react-native';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 class Home extends React.Component {
   constructor(props) {
@@ -48,7 +49,15 @@ class Home extends React.Component {
           }}
           onChangeText={password => this.setState({password})}
         />
+  <TouchableOpacity onPress={()=>{
+
+              this.props.navigation.navigate("home2")
+  }}>
+  <Text style={{padding:10,fontSize:20,color:"red"}}>Click here to move to Clipboard Assignment </Text>
+  </TouchableOpacity>
+       
       </View>
+
     );
   }
   componentDidMount() {
