@@ -1,6 +1,6 @@
 import React from 'react';
-import {View, Text, StyleSheet,ToastAndroid, TextInput,Clipboard,Alert, BackHandler} from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import {View, Text,TouchableOpacity, StyleSheet,ToastAndroid, TextInput,Clipboard,Alert, BackHandler} from 'react-native';
+import {  } from 'react-native-gesture-handler';
 
 class Second extends React.Component {
   constructor(props) {

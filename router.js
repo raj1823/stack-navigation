@@ -6,7 +6,7 @@ import dashboard  from './src/components/dashboard';
 import Home from './src/components/Home';
 import * as React from 'react';
 import Home2 from './src/components/home2'
-import second from './src/components/second'
+import Second from './src/components/second'
 
 const Stack = createStackNavigator();
 
@@ -23,7 +23,7 @@ function MyStac() {
              
         <Stack.Screen name="home" component={Home} />
         <Stack.Screen name="home2" component={Home2} />
-        <Stack.Screen name="second" component={Home} />
+        <Stack.Screen name="second" component={Second} />
       
       </Stack.Navigator>
     
